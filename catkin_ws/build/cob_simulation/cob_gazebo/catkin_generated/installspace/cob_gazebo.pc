@@ -1,0 +1,8 @@
+prefix=/home/anoj/catkin_ws/install
+
+Name: cob_gazebo
+Description: Description of cob_gazebo
+Version: 0.7.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

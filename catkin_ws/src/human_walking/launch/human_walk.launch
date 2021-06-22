@@ -1,0 +1,5 @@
+<launch>
+  <!-- <remap from = "gazebo/model_states" to = "gazebo_model_states"/> -->
+  <node pkg="human_walking" type="human_walk.py" name="walk"  output="screen">
+  </node>
+</launch>

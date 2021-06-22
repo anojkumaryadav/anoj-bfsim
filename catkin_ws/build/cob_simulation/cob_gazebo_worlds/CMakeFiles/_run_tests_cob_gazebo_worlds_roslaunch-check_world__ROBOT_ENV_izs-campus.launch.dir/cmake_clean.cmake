@@ -1,0 +1,8 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/_run_tests_cob_gazebo_worlds_roslaunch-check_world__ROBOT_ENV_izs-campus.launch"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/_run_tests_cob_gazebo_worlds_roslaunch-check_world__ROBOT_ENV_izs-campus.launch.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

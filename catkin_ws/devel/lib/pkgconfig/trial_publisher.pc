@@ -1,0 +1,8 @@
+prefix=/home/anoj/catkin_ws/devel
+
+Name: trial_publisher
+Description: Description of trial_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

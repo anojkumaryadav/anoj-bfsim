@@ -1,0 +1,8 @@
+prefix=/home/anoj/catkin_ws/devel
+
+Name: navi_turtle
+Description: Description of navi_turtle
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/anoj/catkin_ws/devel
+
+Name: cob_default_robot_config
+Description: Description of cob_default_robot_config
+Version: 0.7.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

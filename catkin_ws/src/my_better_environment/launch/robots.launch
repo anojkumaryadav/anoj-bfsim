@@ -1,0 +1,44 @@
+<launch>
+ 
+  <param name="robot_1_description" 
+    command="$(find xacro)/xacro $(find turtlebot3_description)/urdf/turtlebot3_burger.urdf.xacro" />
+
+  <!-- BEGIN ROBOT 1-->
+  <group ns="robot1">
+    <param name="tf_prefix" value="robot1_tf" />
+    <include file="$(find my_better_environment)/launch/one_robot.launch" >
+      <arg name="robot_name"  value="Robot1" />
+      <arg name="robot_tf" value="robot1_tf" />
+      <arg name="init_pose_x" value="-0.8" />
+      <arg name="init_pose_y" value="-1.5" />
+      <arg name="init_pose_a" value="0" />
+    </include>
+  </group>
+
+  <!-- BEGIN ROBOT 2-->
+  <group ns="robot2">
+    <param name="tf_prefix" value="robot2_tf" />
+    <include file="$(find my_better_environment)/launch/one_robot.launch" >
+      <arg name="robot_name"  value="Robot2" />
+      <arg name="robot_tf" value="robot2_tf" />
+      <arg name="init_pose_x" value="4" />
+      <arg name="init_pose_y" value="4.3" />
+      <arg name="init_pose_a" value="1.57" />
+    </include>
+  </group>
+
+  <!-- BEGIN ROBOT 3-->
+  <group ns="robot3">
+    <param name="tf_prefix" value="robot3_tf" />
+    <include file="$(find my_better_environment)/launch/one_robot.launch" >
+      <arg name="robot_name"  value="Robot3" />
+      <arg name="robot_tf" value="robot3_tf" />
+      <arg name="init_pose_x" value="-4" />
+      <arg name="init_pose_y" value="4.3" />
+      <arg name="init_pose_a" value="1.57" />
+    </include>
+  </group>
+
+  
+
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/anoj/catkin_ws/devel
+
+Name: human_walking
+Description: Description of human_walking
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

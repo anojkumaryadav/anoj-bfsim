@@ -1,0 +1,6 @@
+<launch>
+  
+  <node pkg="trial_publisher" type="cob_robo_publisher.py" name="Cob_Goal"  output="screen">
+  </node>
+</launch>
+

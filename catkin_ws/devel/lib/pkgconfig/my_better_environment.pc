@@ -1,0 +1,8 @@
+prefix=/home/anoj/catkin_ws/devel
+
+Name: my_better_environment
+Description: Description of my_better_environment
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

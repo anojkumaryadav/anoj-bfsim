@@ -1,0 +1,8 @@
+prefix=/home/anoj/catkin_ws/devel
+
+Name: cob_moveit_config
+Description: Description of cob_moveit_config
+Version: 0.7.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

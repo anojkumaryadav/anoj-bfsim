@@ -1,0 +1,7 @@
+set(cob_default_robot_behavior_SETUP_PY_SETUP_MODULE "setuptools")
+set(cob_default_robot_behavior_SETUP_PY_VERSION "0.7.5")
+set(cob_default_robot_behavior_SETUP_PY_SCRIPTS "")
+set(cob_default_robot_behavior_SETUP_PY_PACKAGES "cob_default_robot_behavior")
+set(cob_default_robot_behavior_SETUP_PY_PACKAGE_DIRS "src/cob_default_robot_behavior")
+set(cob_default_robot_behavior_SETUP_PY_MODULES "")
+set(cob_default_robot_behavior_SETUP_PY_MODULE_DIRS "")

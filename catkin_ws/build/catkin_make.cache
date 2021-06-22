@@ -1,0 +1,2 @@
+human_walking:my_better_environment:trial_publisher:turtlebot3_simulations/turtlebot3_fake:turtlebot3_simulations/turtlebot3_gazebo:turtlebot3_simulations/turtlebot3_simulations
+-DCATKIN_DEVEL_PREFIX=/home/anoj/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/anoj/catkin_ws/install -G Unix Makefiles
